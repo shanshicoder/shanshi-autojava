@@ -1,0 +1,11 @@
+public enum PageSizeEnum {
+    SIZE_5(5),SIZE_10(10),SIZE_15(15),SIZE_20(20);
+
+    private Integer size;
+    PageSizeEnum(Integer size) {
+        this.size = size;
+    }
+    public Integer getSize(){
+        return size;
+    }
+}
